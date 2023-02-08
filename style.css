@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
+
+body {
+  font-family: 'Roboto Condensed', sans-serif, 400;
+  color: #282C35;
+  font-size: 1em;
+  line-height: 1.5rem;
+  text-align: center;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.head {
+  background-color: #BDDCC3;
+  padding: 10px 10px;
+  margin: 10px 250px;
+  border-radius: 5px;
+  box-shadow: 4px 4px 10px rgb(115, 115, 104);
+}
+
+
+.socials-div {
+  background-color: #BDDCC3;
+  margin: 10px 100px;
+  padding: 10px 10px;
+  margin: 10px 250px;
+  margin-top: 15px;
+  box-shadow: 4px 4px 10px rgb(115, 115, 104);
+}
+
+h1, h2 {
+  color: #033164;
+  font-family: 'Roboto Condensed', sans-serif, 700;
+  font-size: 1.5em;
+  line-height: 2rem;
+}
+
+h1 {
+  font-size: 1.5em;
+  line-height: 1rem;
+}
+
+h2 {
+  font-size: 1.2em;
+  line-height: 1rem;
+}
+
+a {
+  color:#033164;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: double;
+  cursor: pointer;
+  color: darkolivegreen;
+}
+
+.socials {
+  padding-right: 40px;
+}
+
+.socials > li {
+  list-style: none;
+  display: inline-block;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 1.5em;
+  text-align: left;
+}
+.socials > li:hover {
+  color: darkolivegreen;
+  cursor: pointer;
+}
+
+img {
+  width: 20%;
+  border-radius: 10%;
+  box-shadow: 4px 4px 10px rgb(115, 115, 104);
+}
